@@ -1,0 +1,54 @@
+Practica 3. Lenguajes y paradigmas de programación.
+
+Primeros pasos con ruby.
+
+Pregunta 18. ¿Cual es el resultado de la siguiente operacion?
+ 
+2.0.0-p247 :001 > puts "Hello world"
+???
+=> ???
+2.0.0-p247 :002 >
+
+Lanza un Hello World por pantalla y como salida de la instruccion un nil ya 
+que no se devuelve nada.
+
+Pregunta 21.
+Ambos son interpretes de ruby pero irb especifica por pantalla la secuencia
+de instrucciones que se estan ejecutando. El interprete de ruby solo ejecuta las
+instrucciones.
+
+Preguntas 24-27
+
+Cual es el resultado de cada una de las siguientes operaciones.
+puts x
+==>10
+==>nil
+
+def hello
+  puts "Hello world"
+  end
+==>nil
+
+hello
+==>Hello World
+
+byebye
+==>bye bye world!!
+
+x= "changed"
+==> changed
+
+exit
+==> program resumes here. Value of x is : changed
+
+En tiempo de ejecucion se podran crear variables nuevas, modificar, depurar.
+Con el binding.pry las siguientes lineas de codigo se ejecutaran cuando se
+indique un exit a pry.
+
+Pry al igual que irb permite la interpretacion de instrucciones Ruby paso a paso
+pero además, permite anexar código al interprete desde fichero. Esto permitirá mayor funcionalidad con sentencias como binding.pry que  
+para la ejecucion de las instrucciones que aparezcan despues hasta que en el interprete se ponga un exit. Tiene funcionalidades parecidas a un debugg.
+
+
+
+
